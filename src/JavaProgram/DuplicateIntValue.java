@@ -2,11 +2,15 @@ package JavaProgram;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import org.junit.Test;
+
 import java.util.*;
 
 public class DuplicateIntValue {
-
-	public static void main(String[] args) {
+	
+	@Test
+	public void arrayTest() {
 		// TODO Auto-generated method stub
 		
 		int [] value={23,45,67,1,45,23,1};
